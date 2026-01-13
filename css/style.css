@@ -10,6 +10,13 @@ body {
 
 .fitcontent {
   width:fit-content;
+  position: relative;
+}
+
+.fitcontent img {
+  position: absolute;
+  top: 15px;
+  right: 12px;
 }
 
 .poweredby {
@@ -170,6 +177,10 @@ footer {
   padding: 10px;
   font-family: "Trebuchet MS", sans-serif;
   text-align: left;
+}
+
+.content .bio p {
+  width: 100%
 }
 
 .cardlink {
